@@ -1,16 +1,44 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
 .start-btn {
-  color: green;
+  padding: 25px;
+  border-radius: 50%;
+  border: 2px solid black;
+  box-shadow: 0 0 5px 2px green;
+  color: #fff;
+  font-weight: 600;
+  background-color: green;
+  opacity: 0.9;
 }
 .stop-btn {
-  color: red;
+  padding: 25px;
+  border-radius: 50%;
+  border: 2px solid black;
+  box-shadow: 0 0 5px 2px red;
+  color: #fff;
+  font-weight: 600;
+  background-color: red;
+  opacity: 0.9;
 }
 
-.lat-btn {
-  color: gray;
+.lab-btn {
+  padding: 25px 30px;
+  border-radius: 50%;
+  border: 2px solid black;
+  box-shadow: 0 0 5px 2px gray;
+  color: #fff;
+  font-weight: 600;
+  background-color: gray;
+  opacity: 0.9;
 }
 .reset-btn {
+  padding: 25px 18px;
+  border-radius: 50%;
+  border: 2px solid black;
+  box-shadow: 0 0 5px 2px #353b48;
   color: #fff;
+  font-weight: 600;
+  background-color: #353b48;
+  opacity: 0.9;
 }
 body {
   height: 100vh;
@@ -19,7 +47,7 @@ body {
   align-items: center;
 }
 .container {
-  border: 1px solid black;
+  background-color: black;
   width: 300px;
   height: 300px;
 }
@@ -46,5 +74,7 @@ body {
 }
 li {
   list-style: none;
-  font-weight: 500;
+}
+li span {
+  font-weight: 600;
 }
