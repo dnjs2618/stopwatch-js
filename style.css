@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500&display=swap");
 .start-btn {
   color: green;
 }
@@ -25,7 +26,7 @@ body {
 .record-column {
   height: 100px;
   max-height: 100px;
-  overflow: scroll;
+  overflow-y: scroll;
 }
 .timestamp {
   width: 200px;
@@ -35,4 +36,14 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.record-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+li {
+  list-style: none;
 }
