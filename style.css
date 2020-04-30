@@ -1,0 +1,38 @@
+.start-btn {
+  color: green;
+}
+.stop-btn {
+  color: red;
+}
+
+.lat-btn {
+  color: gray;
+}
+.reset-btn {
+  color: #fff;
+}
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  border: 1px solid black;
+  width: 300px;
+  height: 300px;
+}
+.record-column {
+  height: 100px;
+  max-height: 100px;
+  overflow: scroll;
+}
+.timestamp {
+  width: 200px;
+  margin: 0 auto;
+  margin-top: 20px;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
